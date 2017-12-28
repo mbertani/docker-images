@@ -8,11 +8,25 @@ Docker image to work with LSTM networks.
 
 ## Setup
 1. Assuming you are in the directory of the Dockerfile, run:
-    $ docker build -t lstm .
+
+```
+$ docker build -t lstm .
+```
+
 2. If the build process went OK, you can tag the image:
-    $ docker tag lstm mbertani/lstm:latest
+
+```
+$ docker tag lstm mbertani/lstm:latest
+```
+
 3. Push the image to dockerhub.
-    $ docker login
-    $ docker push mbertani/lstm:latest
+```
+$ docker login
+$ docker push mbertani/lstm:latest
+``` 
+
 4. Test the image, for example by using port 9001 in you localhost:
-    $ docker run -p 9001:8888 mbertani/lstm:latest
+
+```
+$ docker run -p 9001:8888 mbertani/lstm:latest
+```
