@@ -25,6 +25,8 @@ $ docker login
 $ docker push mbertani/lstm:latest
 ``` 
 
+The image is available at https://hub.docker.com/r/mbertani/lstm/
+
 4. Test the image, for example by using port 9001 in you localhost:
 
 ```
