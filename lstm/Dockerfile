@@ -23,9 +23,6 @@ USER condauser
 # Set the working directory
 WORKDIR /home/condauser
 
-# Map the notebooks folder in the current directory to the home folder of condauser
-ADD ./notebooks /home/condauser
-
 # The port to expose from this container
 EXPOSE 8888
 

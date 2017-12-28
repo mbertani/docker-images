@@ -30,5 +30,7 @@ The image is available at https://hub.docker.com/r/mbertani/lstm/
 4. Test the image, for example by using port 9001 in you localhost:
 
 ```
-$ docker run -p 9001:8888 mbertani/lstm:latest
+$ docker run -p 9001:8888 --memory="4096m" --cpus="2" -v ./notebooks:/home/condauser/notebooks mbertani/lstm:latest
 ```
+
+5. Go to `localhost:9001` to check that the jupyter server is running. Use the password `workshop` to log into it.
