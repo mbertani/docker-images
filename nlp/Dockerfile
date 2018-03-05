@@ -15,6 +15,7 @@ RUN /opt/conda/bin/conda update anaconda \
 && /opt/conda/bin/conda install -c conda-forge elasticsearch \
 && /opt/conda/bin/conda install -c conda-forge elasticsearch-dsl \
 && /opt/conda/bin/conda install -c conda-forge gensim \
+&& /opt/conda/bin/conda install -c conda-forge testfixtures \
 && /opt/conda/bin/conda install -c spacy spacy \
 && /opt/conda/bin/python -m spacy download en \
 && useradd --create-home --home-dir /home/condauser --shell /bin/bash condauser \
