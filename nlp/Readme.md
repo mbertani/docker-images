@@ -1,5 +1,5 @@
-# LSTM
-Docker image to work with LSTM networks. 
+# NLP
+Docker image to work with NLP. 
 
 ## Features
 - Uses image `continuumio/anaconda3:latest` as base image, with anaconda and python3
