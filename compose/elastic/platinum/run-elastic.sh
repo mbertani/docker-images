@@ -1,0 +1,1 @@
+ELASTIC_VERSION=6.2.4 TAG=6.2.4 ELASTIC_PASSWORD=secret docker-compose up
