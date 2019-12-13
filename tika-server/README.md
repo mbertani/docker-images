@@ -1,5 +1,5 @@
 # Source
-This file is based on [github.com/mattfullerton/tika-tesseract-docker/](https://github.com/mattfullerton/tika-tesseract-docker/blob/master/README.md)
+This file is based on [https://github.com/LogicalSpark/docker-tikaserver/blob/master/Dockerfile](https://github.com/LogicalSpark/docker-tikaserver/)
 
 The Dockerfile has been modified to add norwegian language support for tesseract-ocr.
 
